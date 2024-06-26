@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BeerManagement.Domain\BeerManagement.Domain.csproj" />
+    <ProjectReference Include="..\BeerManagement.IBusiness\BeerManagement.IBusiness.csproj" />
+    <ProjectReference Include="..\BeerManagement.IDatabase\BeerManagement.IDatabase.csproj" />
+  </ItemGroup>
+
+</Project>

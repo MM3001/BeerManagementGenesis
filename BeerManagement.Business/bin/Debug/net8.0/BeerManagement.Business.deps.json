@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BeerManagement.Business/1.0.0": {
+        "dependencies": {
+          "BeerManagement.Domain": "1.0.0",
+          "BeerManagement.IBusiness": "1.0.0",
+          "BeerManagement.IDatabase": "1.0.0"
+        },
+        "runtime": {
+          "BeerManagement.Business.dll": {}
+        }
+      },
+      "BeerManagement.Domain/1.0.0": {
+        "runtime": {
+          "BeerManagement.Domain.dll": {}
+        }
+      },
+      "BeerManagement.IBusiness/1.0.0": {
+        "dependencies": {
+          "BeerManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "BeerManagement.IBusiness.dll": {}
+        }
+      },
+      "BeerManagement.IDatabase/1.0.0": {
+        "dependencies": {
+          "BeerManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "BeerManagement.IDatabase.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BeerManagement.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BeerManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BeerManagement.IBusiness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BeerManagement.IDatabase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

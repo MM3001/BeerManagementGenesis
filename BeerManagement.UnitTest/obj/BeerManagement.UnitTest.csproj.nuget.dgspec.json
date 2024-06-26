@@ -1,0 +1,477 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\PRJ\\BeerManagement\\BeerManagement.UnitTest\\BeerManagement.UnitTest.csproj": {}
+  },
+  "projects": {
+    "C:\\PRJ\\BeerManagement\\BeerManagement.Business\\BeerManagement.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PRJ\\BeerManagement\\BeerManagement.Business\\BeerManagement.Business.csproj",
+        "projectName": "BeerManagement.Business",
+        "projectPath": "C:\\PRJ\\BeerManagement\\BeerManagement.Business\\BeerManagement.Business.csproj",
+        "packagesPath": "C:\\Users\\Matth\\.nuget\\packages\\",
+        "outputPath": "C:\\PRJ\\BeerManagement\\BeerManagement.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\PRJ\\BeerManagement\\BeerManagement.Domain\\BeerManagement.Domain.csproj": {
+                "projectPath": "C:\\PRJ\\BeerManagement\\BeerManagement.Domain\\BeerManagement.Domain.csproj"
+              },
+              "C:\\PRJ\\BeerManagement\\BeerManagement.IBusiness\\BeerManagement.IBusiness.csproj": {
+                "projectPath": "C:\\PRJ\\BeerManagement\\BeerManagement.IBusiness\\BeerManagement.IBusiness.csproj"
+              },
+              "C:\\PRJ\\BeerManagement\\BeerManagement.IDatabase\\BeerManagement.IDatabase.csproj": {
+                "projectPath": "C:\\PRJ\\BeerManagement\\BeerManagement.IDatabase\\BeerManagement.IDatabase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\PRJ\\BeerManagement\\BeerManagement.Database\\BeerManagement.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PRJ\\BeerManagement\\BeerManagement.Database\\BeerManagement.Database.csproj",
+        "projectName": "BeerManagement.Database",
+        "projectPath": "C:\\PRJ\\BeerManagement\\BeerManagement.Database\\BeerManagement.Database.csproj",
+        "packagesPath": "C:\\Users\\Matth\\.nuget\\packages\\",
+        "outputPath": "C:\\PRJ\\BeerManagement\\BeerManagement.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\PRJ\\BeerManagement\\BeerManagement.Domain\\BeerManagement.Domain.csproj": {
+                "projectPath": "C:\\PRJ\\BeerManagement\\BeerManagement.Domain\\BeerManagement.Domain.csproj"
+              },
+              "C:\\PRJ\\BeerManagement\\BeerManagement.IDatabase\\BeerManagement.IDatabase.csproj": {
+                "projectPath": "C:\\PRJ\\BeerManagement\\BeerManagement.IDatabase\\BeerManagement.IDatabase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\PRJ\\BeerManagement\\BeerManagement.Domain\\BeerManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PRJ\\BeerManagement\\BeerManagement.Domain\\BeerManagement.Domain.csproj",
+        "projectName": "BeerManagement.Domain",
+        "projectPath": "C:\\PRJ\\BeerManagement\\BeerManagement.Domain\\BeerManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Matth\\.nuget\\packages\\",
+        "outputPath": "C:\\PRJ\\BeerManagement\\BeerManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\PRJ\\BeerManagement\\BeerManagement.IBusiness\\BeerManagement.IBusiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PRJ\\BeerManagement\\BeerManagement.IBusiness\\BeerManagement.IBusiness.csproj",
+        "projectName": "BeerManagement.IBusiness",
+        "projectPath": "C:\\PRJ\\BeerManagement\\BeerManagement.IBusiness\\BeerManagement.IBusiness.csproj",
+        "packagesPath": "C:\\Users\\Matth\\.nuget\\packages\\",
+        "outputPath": "C:\\PRJ\\BeerManagement\\BeerManagement.IBusiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\PRJ\\BeerManagement\\BeerManagement.Domain\\BeerManagement.Domain.csproj": {
+                "projectPath": "C:\\PRJ\\BeerManagement\\BeerManagement.Domain\\BeerManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\PRJ\\BeerManagement\\BeerManagement.IDatabase\\BeerManagement.IDatabase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PRJ\\BeerManagement\\BeerManagement.IDatabase\\BeerManagement.IDatabase.csproj",
+        "projectName": "BeerManagement.IDatabase",
+        "projectPath": "C:\\PRJ\\BeerManagement\\BeerManagement.IDatabase\\BeerManagement.IDatabase.csproj",
+        "packagesPath": "C:\\Users\\Matth\\.nuget\\packages\\",
+        "outputPath": "C:\\PRJ\\BeerManagement\\BeerManagement.IDatabase\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\PRJ\\BeerManagement\\BeerManagement.Domain\\BeerManagement.Domain.csproj": {
+                "projectPath": "C:\\PRJ\\BeerManagement\\BeerManagement.Domain\\BeerManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\PRJ\\BeerManagement\\BeerManagement.UnitTest\\BeerManagement.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PRJ\\BeerManagement\\BeerManagement.UnitTest\\BeerManagement.UnitTest.csproj",
+        "projectName": "BeerManagement.UnitTest",
+        "projectPath": "C:\\PRJ\\BeerManagement\\BeerManagement.UnitTest\\BeerManagement.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\Matth\\.nuget\\packages\\",
+        "outputPath": "C:\\PRJ\\BeerManagement\\BeerManagement.UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\PRJ\\BeerManagement\\BeerManagement.Business\\BeerManagement.Business.csproj": {
+                "projectPath": "C:\\PRJ\\BeerManagement\\BeerManagement.Business\\BeerManagement.Business.csproj"
+              },
+              "C:\\PRJ\\BeerManagement\\BeerManagement.Database\\BeerManagement.Database.csproj": {
+                "projectPath": "C:\\PRJ\\BeerManagement\\BeerManagement.Database\\BeerManagement.Database.csproj"
+              },
+              "C:\\PRJ\\BeerManagement\\BeerManagement.Domain\\BeerManagement.Domain.csproj": {
+                "projectPath": "C:\\PRJ\\BeerManagement\\BeerManagement.Domain\\BeerManagement.Domain.csproj"
+              },
+              "C:\\PRJ\\BeerManagement\\BeerManagement.IBusiness\\BeerManagement.IBusiness.csproj": {
+                "projectPath": "C:\\PRJ\\BeerManagement\\BeerManagement.IBusiness\\BeerManagement.IBusiness.csproj"
+              },
+              "C:\\PRJ\\BeerManagement\\BeerManagement.IDatabase\\BeerManagement.IDatabase.csproj": {
+                "projectPath": "C:\\PRJ\\BeerManagement\\BeerManagement.IDatabase\\BeerManagement.IDatabase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

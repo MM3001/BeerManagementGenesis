@@ -1,0 +1,8 @@
+﻿Add-Migration -Name InitialCreate -Project BeerManagement.Database -StartupProject BeerManagement.Database -Context BeerContext
+
+Update-DataBase -Project BeerManagement.Database -StartupProject BeerManagement.Database -Context BeerContext
+
+
+To drop the DB use this command :
+
+Drop-Database -Project BeerManagement.Database -StartupProject BeerManagement.Database -Context BeerContext

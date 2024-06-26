@@ -1,0 +1,15 @@
+C:\PRJ\BeerManagement\BeerManagement.IDatabase\bin\Debug\net8.0\BeerManagement.IDatabase.deps.json
+C:\PRJ\BeerManagement\BeerManagement.IDatabase\bin\Debug\net8.0\BeerManagement.IDatabase.dll
+C:\PRJ\BeerManagement\BeerManagement.IDatabase\bin\Debug\net8.0\BeerManagement.IDatabase.pdb
+C:\PRJ\BeerManagement\BeerManagement.IDatabase\bin\Debug\net8.0\BeerManagement.Domain.dll
+C:\PRJ\BeerManagement\BeerManagement.IDatabase\bin\Debug\net8.0\BeerManagement.Domain.pdb
+C:\PRJ\BeerManagement\BeerManagement.IDatabase\obj\Debug\net8.0\BeerManagement.IDatabase.csproj.AssemblyReference.cache
+C:\PRJ\BeerManagement\BeerManagement.IDatabase\obj\Debug\net8.0\BeerManagement.IDatabase.GeneratedMSBuildEditorConfig.editorconfig
+C:\PRJ\BeerManagement\BeerManagement.IDatabase\obj\Debug\net8.0\BeerManagement.IDatabase.AssemblyInfoInputs.cache
+C:\PRJ\BeerManagement\BeerManagement.IDatabase\obj\Debug\net8.0\BeerManagement.IDatabase.AssemblyInfo.cs
+C:\PRJ\BeerManagement\BeerManagement.IDatabase\obj\Debug\net8.0\BeerManagement.IDatabase.csproj.CoreCompileInputs.cache
+C:\PRJ\BeerManagement\BeerManagement.IDatabase\obj\Debug\net8.0\BeerMana.863649EE.Up2Date
+C:\PRJ\BeerManagement\BeerManagement.IDatabase\obj\Debug\net8.0\BeerManagement.IDatabase.dll
+C:\PRJ\BeerManagement\BeerManagement.IDatabase\obj\Debug\net8.0\refint\BeerManagement.IDatabase.dll
+C:\PRJ\BeerManagement\BeerManagement.IDatabase\obj\Debug\net8.0\BeerManagement.IDatabase.pdb
+C:\PRJ\BeerManagement\BeerManagement.IDatabase\obj\Debug\net8.0\ref\BeerManagement.IDatabase.dll

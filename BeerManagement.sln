@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeerManagement.API", "BeerManagement.API\BeerManagement.API.csproj", "{FD107DCE-A062-4844-9D6A-23F822324A12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeerManagement.Domain", "BeerManagement.Domain\BeerManagement.Domain.csproj", "{887F778A-1D90-4EB2-A876-79FC9EF2C865}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeerManagement.Database", "BeerManagement.Database\BeerManagement.Database.csproj", "{0070C6AF-8B33-4EC8-9B6A-3FC687856B30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeerManagement.IDatabase", "BeerManagement.IDatabase\BeerManagement.IDatabase.csproj", "{4555FBCC-A92C-425F-9BC0-29622734D44A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeerManagement.Business", "BeerManagement.Business\BeerManagement.Business.csproj", "{90F5E8D1-8EF5-4F44-9A99-2F171B085ADD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeerManagement.IBusiness", "BeerManagement.IBusiness\BeerManagement.IBusiness.csproj", "{D7CABF4A-C39F-4D72-B0B9-73A9DA36F1FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerManagement.UnitTest", "BeerManagement.UnitTest\BeerManagement.UnitTest.csproj", "{79AEFBB4-BA7F-4BF8-BE39-51B473E744F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD107DCE-A062-4844-9D6A-23F822324A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD107DCE-A062-4844-9D6A-23F822324A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD107DCE-A062-4844-9D6A-23F822324A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD107DCE-A062-4844-9D6A-23F822324A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{887F778A-1D90-4EB2-A876-79FC9EF2C865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{887F778A-1D90-4EB2-A876-79FC9EF2C865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{887F778A-1D90-4EB2-A876-79FC9EF2C865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{887F778A-1D90-4EB2-A876-79FC9EF2C865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0070C6AF-8B33-4EC8-9B6A-3FC687856B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0070C6AF-8B33-4EC8-9B6A-3FC687856B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0070C6AF-8B33-4EC8-9B6A-3FC687856B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0070C6AF-8B33-4EC8-9B6A-3FC687856B30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4555FBCC-A92C-425F-9BC0-29622734D44A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4555FBCC-A92C-425F-9BC0-29622734D44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4555FBCC-A92C-425F-9BC0-29622734D44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4555FBCC-A92C-425F-9BC0-29622734D44A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F5E8D1-8EF5-4F44-9A99-2F171B085ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F5E8D1-8EF5-4F44-9A99-2F171B085ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F5E8D1-8EF5-4F44-9A99-2F171B085ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F5E8D1-8EF5-4F44-9A99-2F171B085ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7CABF4A-C39F-4D72-B0B9-73A9DA36F1FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7CABF4A-C39F-4D72-B0B9-73A9DA36F1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7CABF4A-C39F-4D72-B0B9-73A9DA36F1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7CABF4A-C39F-4D72-B0B9-73A9DA36F1FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79AEFBB4-BA7F-4BF8-BE39-51B473E744F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79AEFBB4-BA7F-4BF8-BE39-51B473E744F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79AEFBB4-BA7F-4BF8-BE39-51B473E744F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79AEFBB4-BA7F-4BF8-BE39-51B473E744F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {593A2A4A-735C-4E6E-910B-4E5A9620E3B4}
+	EndGlobalSection
+EndGlobal
